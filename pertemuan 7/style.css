@@ -26,6 +26,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+.zoom-nav-ul-li {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom-nav-ul-li:hover {
+    transform: scale(1.2);
+}
+
 main {
     padding: 20px;
 }
@@ -45,9 +53,48 @@ article ol li {
     padding: 0;
 }
 
-.berita-lain ul li {
-    list-style: none;
-    padding: 5px;
+.berita-lain {
+    margin-top: 40px;
+}
+
+.berita-lain h3 {
+    color: #c0392b;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-berita {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-berita img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.isi-berita {
+    padding: 10px;
+}
+
+.isi-berita h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.isi-berita p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.isi-berita a {
+    text-decoration: none;
 }
 
 footer {
